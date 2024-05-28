@@ -1,8 +1,12 @@
 /* import url() */
 *{
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+  
 }
 #portfolio{
     overflow-x: hidden;
@@ -22,13 +26,17 @@
 }
 .container{
     width: 870px;
-    height: 50px;
+  
+    height: 59px;
     display: flex;
     justify-content: space-between;
-    background-color:rgb(240, 251, 251);
+    background-color: rgb(240, 251, 251);
+    padding: 1rem;
 }
 .imagelog{
     height: 40px;
+    mix-blend-mode: darken;
+
 }
 .logo{
     display: flex;
